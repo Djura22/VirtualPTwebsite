@@ -29,15 +29,20 @@
     padding: 0 50px;  
 }
 
-.navbar__logo {
-    color: #131313;
+#navbar__logo {
+    background-color: #ffffff;
+    background-image: linear-gradient(to top, #ffffff 0%, burlywood 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 125px;
+    cursor: pointer;
     text-decoration: none;
-    height: 100%;
-}
+    font-size: 2rem;
+  }
 
 .navbar__menu {
     display: flex;

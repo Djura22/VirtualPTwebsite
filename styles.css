@@ -188,3 +188,67 @@
     }
 
 }
+
+  /* Home/About section */
+
+.main {
+    background-color: #5974ad;
+    padding: 10rem 0;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 25px;
+}
+      
+.main__content {
+    color: #fff;
+    width: 100%;
+}
+
+.main__content h1 {
+    font-size: 2rem;
+    background-color: linear-gradient(to top, #ffffff 0%, burlywood 100%);
+    background-image: linear-gradient(to top, #ffffff 0%, burlywood 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 32px;
+}
+      
+.main__content h2 {
+    font-size: 1rem;
+    background: #ffffff;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+.main__img--container {
+    text-align: center;
+    margin-right: 10px;
+}
+  
+.main__img--card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+

@@ -205,7 +205,7 @@
     height: 90%;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 900px;
     padding: 0 25px;
 }
       
@@ -227,7 +227,7 @@
 }
       
 .main__content h2 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     background: #000000;
     background-size: 100%;
     -webkit-background-clip: text;
@@ -244,8 +244,8 @@
   
 .main__img--card {
     margin: 10px;
-    height: 500px;
-    width: 500px;
+    height: 375px;
+    width: 375px;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -266,7 +266,7 @@
     height: 90%;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 900px;
     padding: 0 25px;
 }
       
@@ -278,8 +278,8 @@
 .conditions__content h1 {
     font-size: 2rem;
     text-align: center;
-    background-color: linear-gradient(to top, #000000 0%, burlywood 100%);
-    background-image: linear-gradient(to top, #000000 0%, burlywood 100%);
+    background-color:  #000000;
+    background-image: #000000;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -290,6 +290,7 @@
       
 .conditions__content h2 {
     font-size: 0.8rem;
+    text-align: center;
     background: #000000;
     background-size: 100%;
     -webkit-background-clip: text;
@@ -298,6 +299,21 @@
     -moz-text-fill-color: transparent;
     margin-bottom: 10px;
 }
+
+.conditions__img--container {
+    text-align: center;
+    margin-right: 10px;
+}
+  
+.conditions__img--card {
+    margin: 10px;
+    height: 400px;
+    width: 400px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
 
 .foryou {
     background-color: #ffffff;
@@ -313,7 +329,7 @@
     height: 90%;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
+    max-width: 900px;
     padding: 0 25px;
 }
       
@@ -324,9 +340,9 @@
 
 .foryou__content h1 {
     font-size: 2rem;
-    text-align: center;
-    background-color: linear-gradient(to top, #000000 0%, burlywood 100%);
-    background-image: linear-gradient(to top, #000000 0%, burlywood 100%);
+    text-align: left;
+    background-color:  #000000;
+    background-image: #000000;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -346,3 +362,98 @@
     margin-bottom: 10px;
 }
 
+/* Links */
+
+.links {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 2rem;
+}
+
+.links h2 {
+    background-color: #ffffff;
+    background-image: #000000;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.links__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.links__card {
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #000000;
+    background-image: linear-gradient(to right, #5974ad 0%, #5974ad 100%);
+    transition: 0.3s ease-in;
+}
+
+.links__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.links__card button {
+    color: #000000;
+    padding: 14px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: burlywood;
+    font-size: 1rem;
+}
+
+.links__card button {
+    cursor: pointer;
+}
+
+.links__card button:hover {
+    cursor: pointer;
+}
+
+.links__card:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.links__card h2 {
+    text-align: center;
+}
+
+.links__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 700px) {
+    .links__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+  
+  @media screen and (max-width: 400px) {
+    .links__wrapper {
+      grid-template-columns: 1fr;
+    }
+  }

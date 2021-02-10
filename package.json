@@ -1,0 +1,19 @@
+{
+  "name": "virtualpt",
+  "version": "1.0.0",
+  "description": "website for physiotherapy business client",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Djura22/VirtualPTwebsite.git"
+  },
+  "author": "Michael Groves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Djura22/VirtualPTwebsite/issues"
+  },
+  "homepage": "https://github.com/Djura22/VirtualPTwebsite#readme"
+}
